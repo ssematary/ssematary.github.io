@@ -76,37 +76,25 @@
   </head>
   <body>
     <center>
-      <button class="glow-button" id="continuebutton">click to continue</button>
-      <div id="restofsite" style="display: none;">
-        <h1 class="rainbow-text">blake</h1>
-        <img src="https://cdn.discordapp.com/attachments/1133882884458041415/1134325763349422211/IMG_0307.jpg", height="150", width="150">
-        <br>
-        <br>
-        <a href="https://flipd.gg/blake", class="button">flipd</a>
-        <br>
-        <a href="https://t.me/blakesvouches", class="button">vouches</a>
-        <br>
-        <a href="https://t.me/edatin", class="button">stock</a>
-        <br>
-        <br>
-        <a href="https://discord.com/users/275494481648680961" class="button">discord</a>
-        <br>
-        <a href="https://t.me/grouty", class="button">telegram</a>
-        <br>
-        <a href="https://t.me/blakeogu", class="button">crypto</a>
-      </div>
+      <h1 class="rainbow-text">blake</h1>
+      <img src="https://cdn.discordapp.com/attachments/1133882884458041415/1134325763349422211/IMG_0307.jpg", height="150", width="150">
+      <br>
+      <br>
+      <a href="https://flipd.gg/blake", class="button">flipd</a>
+      <br>
+      <a href="https://t.me/blakesvouches", class="button">vouches</a>
+      <br>
+      <a href="https://t.me/edatin", class="button">stock</a>
+      <br>
+      <br>
+      <a href="https://discord.com/users/275494481648680961" class="button">discord</a>
+      <br>
+      <a href="https://t.me/grouty", class="button">telegram</a>
+      <br>
+      <a href="https://t.me/blakeogu", class="button">crypto</a>
     </center>
-    <audio id="musicplayer">
+    <audio autoplay loop>
       <source src="./stuff/music.mp3" type="audio/mpeg">
     </audio>
-    <script>
-      document.getElementById("continuebutton").addEventListener("click", function() {
-        document.getElementById("continuebutton").style.display = "none";
-        document.getElementById("restofsite").style.display = "block";
-        const audioPlayer = document.getElementById("musicplayer");
-        audioPlayer.play();
-        audioPlayer.loop = true;
-      });
-    </script>
   </body>
 </html>
